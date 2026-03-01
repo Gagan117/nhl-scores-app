@@ -13,7 +13,7 @@ export default function Navbar() {
           </div>
 
           {/* Navigation Links */}
-          <div className="flex space-x-4">
+          <div className="hidden md:flex space-x-6">
             <Link
               to="/"
               className="text-white hover:text-red-400 px-3 py-2 rounded-md text-lg font-medium"
